@@ -6,6 +6,8 @@ Sample a few Gaussian vectors and project the Hessian on it to get an approximat
 import numpy as onp
 import jax.numpy as np
 
+from randomized_hessian import approximate_hessian
+
 # create a simple quadratic function
 dim = 5
 S = onp.random.normal(0,1,size=(dim,dim))
