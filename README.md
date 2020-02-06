@@ -1,4 +1,4 @@
-# Randomized (low rank) Hessian apprixmation
+# Randomized (low rank) Hessian approximation of JAX function
 
 Sample a few Gaussian vectors and project the Hessian on it to get an approximation of the Hessian
 
